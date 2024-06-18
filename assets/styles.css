@@ -1,0 +1,59 @@
+/* Tambahkan ini di bagian style atau buat file CSS terpisah */
+.sinta-dropdown {
+  margin-bottom: 10px;
+}
+
+.badge {
+  color: white !important;
+}
+
+
+.dropdown-btn {
+  background-color: #336799;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  padding-left: 20px;
+}
+
+.dropdown-content a {
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-btn:after {
+  content: "\002B"; /* Plus symbol */
+  float: left;
+  padding-right: 8px;
+}
+
+.dropdown-btn.active:after {
+  content: "\2212"; /* Minus symbol */
+}
+
+.card-img-top {
+  object-fit: scale-down;
+  height: 180px !important;
+}
+
+.text-decoration-none {
+  color: #336799 !important;
+  font-size: 16px !important;
+
+}
