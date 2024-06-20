@@ -1,217 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US" xml:lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      E-Journal Universitas Islam Negeri Syarif Hidayatullah Jakarta
-    </title>
-
-    <meta name="generator" content="Open Journal Systems 3.1.2.0" />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Droid+Serif:200,200i,400,400i|Fira+Sans:300,300i,400,400i,700,700i"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://jurnal.ugm.ac.id/v3/index/$$$call$$$/page/page/css?name=stylesheet"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://jurnal.ugm.ac.id/v3/public/site/sitestyle.css"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="assets/styles.css" type="text/css" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/fav.png" />
-
-    <!-- dipindah ke head karena untuk ownership verification -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-165289732-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-165289732-1");
-    </script>
-
-    <!-- Google tag (gtag.js) - GTAG 4 UGM-wide -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-L4JC39NX24"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-L4JC39NX24");
-    </script>
-  </head>
+  <?php include "assets/head.html" ?>
   <body dir="ltr">
-    <header class="main-header" style="background-color: #336799">
-      <div class="container">
-        <h1 class="sr-only">Jurnal Ilmiah Universitas Gadjah Mada</h1>
-
-        <div class="navbar-logo">
-          <a
-            href="			https://jurnal.ugm.ac.id/v3/index
-	"
-            ><img src="assets/header.png" alt="Page Header Logo"
-          /></a>
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a
-            class="navbar-brand"
-            href="			https://jurnal.ugm.ac.id/v3/index
-	"
-            ><img
-              src="https://jurnal.ugm.ac.id/v3/public/site/pageHeaderTitleImage_en_US.png"
-              alt="Page Header Logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#main-navbar"
-            aria-controls="main-navbar"
-            aria-expanded="false"
-            aria-label="Toggle Navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div
-            class="collapse navbar-collapse justify-content-md-center"
-            id="main-navbar"
-          >
-            <ul id="primaryNav-userNav" class="navbar-nav">
-              <li class="nav-item nmi_type_user_register">
-                <a
-                  href="https://jurnal.ugm.ac.id/v3/index/user/register"
-                  class="nav-link"
-                >
-                  Register
-                </a>
-              </li>
-              <li class="nav-item nmi_type_user_login">
-                <a
-                  href="https://jurnal.ugm.ac.id/v3/index/login"
-                  class="nav-link"
-                >
-                  Login
-                </a>
-              </li>
-              <li class="nav-item nmi_type_remote_url">
-                <a
-                  href="https://jurnal.ugm.ac.id/v3/index/search"
-                  class="nav-link"
-                >
-                  Search
-                </a>
-              </li>
-            </ul>
-
-            <div id="languageSmallNav" class="dropdown language-toggle">
-              <button
-                class="btn dropdown-toggle"
-                type="button"
-                id="languageToggleMenulanguageSmallNav"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <span class="sr-only"
-                  >Change the language. The current language is:</span
-                >
-                English
-              </button>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="languageToggleMenulanguageSmallNav"
-              >
-                <a
-                  class="dropdown-item"
-                  href="https://jurnal.ugm.ac.id/v3/index/user/setLocale/id_ID?source=%2Fv3%2F"
-                >
-                  Bahasa Indonesia
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-
-        <ul id="userNav" class="navbar-nav">
-          <li class="nav-item nmi_type_user_register">
-            <a
-              href="https://jurnal.ugm.ac.id/v3/index/user/register"
-              class="nav-link"
-            >
-              Register
-            </a>
-          </li>
-          <li class="nav-item nmi_type_user_login">
-            <a href="https://jurnal.ugm.ac.id/v3/index/login" class="nav-link">
-              Login
-            </a>
-          </li>
-          <li class="nav-item nmi_type_remote_url">
-            <a href="https://jurnal.ugm.ac.id/v3/index/search" class="nav-link">
-              Search
-            </a>
-          </li>
-        </ul>
-
-        <div id="languageLargeNav" class="dropdown language-toggle">
-          <button
-            class="btn dropdown-toggle"
-            type="button"
-            id="languageToggleMenulanguageLargeNav"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <span class="sr-only"
-              >Change the language. The current language is:</span
-            >
-            English
-          </button>
-          <div
-            class="dropdown-menu"
-            aria-labelledby="languageToggleMenulanguageLargeNav"
-          >
-            <a
-              class="dropdown-item"
-              href="https://jurnal.ugm.ac.id/v3/index/user/setLocale/id_ID?source=%2Fv3%2F"
-            >
-              Bahasa Indonesia
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <?php include "assets/header.html" ?>
 
     <div class="container page-site">
       <div class="row justify-content-md-center">
@@ -1432,59 +1223,54 @@
               <div class="col-md-4 browse">
                 <h3>Jurnal Fakultas</h3>
                 <hr />
-                <a href="cluster/social-sciences-and-humanities">
+                <a href="tarbiyah/index.php">
                   <i class="fas fa-chalkboard-teacher"></i> Ilmu Tarbiyah dan
                   Keguruan
                 </a>
                 <hr />
-                <a href="cluster/life-sciences">
+                <a href="syariah/index.php">
                   <i class="fas fa-balance-scale"></i> Syariah dan Hukum
                 </a>
                 <hr />
-                <a href="cluster/physical-sciences">
+                <a href="adab/index.php">
                   <i class="fas fa-book"></i> Adab dan Humaniora
                 </a>
                 <hr />
-                <a href="cluster/engineering">
+                <a href="ushuluddin/index.php">
                   <i class="fas fa-quran"></i> Ushuluddin
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="dakwah/index.php">
                   <i class="fas fa-bullhorn"></i> Dakwah dan Ilmu Komunikasi
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="sains/index.php">
                   <i class="fas fa-microscope"></i> Sains dan Teknologi
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="ekonomi/index.php">
                   <i class="fas fa-chart-line"></i> Ekonomi dan Bisnis
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="sosial/index.php">
                   <i class="fas fa-users"></i> Ilmu Sosial dan Ilmu Politik
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="kedokteran/index.php">
                   <i class="fas fa-user-md"></i> Kedokteran
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="kesehatan/index.php">
                   <i class="fas fa-heartbeat"></i> Ilmu Kesehatan
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="dirasat/index.php">
                   <i class="fas fa-book-open"></i> Dirasat Islamiah
                 </a>
                 <hr />
-                <a href="cluster/health-sciences">
+                <a href="psikologi/index.php">
                   <i class="fas fa-brain"></i> Psikologi
                 </a>
-                <hr />
-                <a href="cluster/health-sciences">
-                  <i class="fas fa-ellipsis-h"></i> Lainnya...
-                </a>
-                <hr />
               </div>
             </div>
           </div>
@@ -1493,25 +1279,7 @@
     </div>
     <!-- .page -->
 
-    <footer class="site-footer" style="background-color: #007398">
-      <div class="col-md-6 footer-right">
-        <p>
-          2018 &copy;&nbsp;
-          <a
-            href="http://journal.uinjkt.ac.id"
-            title="E-Journal Universitas Islam Negeri Syarif Hidayatullah Jakarta"
-            >E-Journal Universitas Islam Negeri Syarif Hidayatullah Jakarta</a
-          ><br />
-          Powered by&nbsp;
-          <a
-            href="http://pustipanda.uinjkt.ac.id"
-            title="Pustipanda UIN Syarif Hidayatullah Jakarta"
-            target="_blank"
-            >Pustipanda</a
-          >
-        </p>
-      </div>
-    </footer>
+    <?php include "assets/footer.html" ?>
     <!-- pkp_structure_footer_wrapper -->
     <!-- Tambahkan ini di bagian bawah sebelum tag </body> -->
     <script>
@@ -1534,17 +1302,6 @@
       });
     </script>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      type="text/javascript"
-    ></script>
+    
   </body>
 </html>
